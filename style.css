@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.countdown {
+    background-color: #081b31;
+    padding: 1.5rem;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(60, 20px); /* 30 boxes per row */
+    gap: 4px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box.checked {
+    background-color: #FF0000; /* Green when checked */
+}
