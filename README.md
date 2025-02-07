@@ -26,6 +26,17 @@ This project is a **1096-day countdown timer** combined with a **daily progress 
 
 - Want a different countdown duration? Modify `targetDate` in `script.js`.  
 - Change the grid size by editing `grid-template-columns` in `style.css`.  
-- Customize checked box colors in `.box.checked`.  
+- Customize checked box colors in `.box.checked`.
+
+## Wanna Use It..
+- Open this link :
+    ```bash
+    https://raj-patel7807.github.io/Days_Countdown/
+    ```
+
+## Author 🧑🏻‍💻
+**Raj Patel**
+- [LinkedIn](https://www.linkedin.com/in/raj-patel7807)
+- [GitHub](https://github.com/Raj-Patel7807)
 
 **Happy Coding!! 🚀🔥** 
